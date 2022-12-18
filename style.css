@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #EDE4E0;
+}
+
+.navigbar {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigbar a {
+    color: #EDE4E0;
+    font-weight: regular 700;
+    padding: .5rem;
+    letter-spacing: .05rem;
+    text-decoration: none;
+}
+
+.navigbar a:hover {
+    color: #815B5B;
+}
+
+header {
+    background-color: rgba(0,0,0,0.75);
+    padding: 1rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url('instantndlbanner.webp');
+    background-position: bottom center;
+    background-size: cover;
+    margin-top: -10rem;
+
+    color: #EDE4E0;
+
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+}
+
+.banner .instant {
+    color: red;
+}
+
+.banner .bancontent {
+    background-color: rgba(0,0,0,0.75);
+    text-align: center;
+    width: 550px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .bancontent .bantext h3 {
+    font-weight: 700;
+}
+
+#sec1 {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1 h2 {
+    text-align: center;
+    color: #815B5B;
+    border-bottom: 1px solid #594545;
+}
+
+#sec1 p{
+    margin-top: 5px;
+}
+
+#sec2 {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec2 h2 {
+    text-align: center;
+    color: #815B5B;
+    border-bottom: 1px solid #594545;
+}
+
+.instant-brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.instant-brands a {
+    text-decoration: none;
+}
+
+.instant-brand {
+    margin: 5px;
+    height: 350px;
+    width: 420px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.instant-brand img{
+    height: 350px;
+    width: 420px;
+    display: block;
+}
+
+.instant-brand .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem;
+    gap: 2rem;
+    position: relative;
+    top: 0%;
+    bottom: -100%;
+    transition: all 500ms;
+    color: #EDE4E0;
+}
+
+
+.instant-brand:hover .overlay {
+    transform: translateY(-100%);
+}
+
+#sec3 {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #9b8383; */
+}
+
+#sec3 h2 {
+    text-align: center;
+    color: #815B5B;
+    border-bottom: 1px solid #594545;
+}
+
+#sec3 h5{
+    margin-top: 5px;
+}
+
+/* noodle details */
+
+.titledescription {
+    font-size: 1rem;
+    color:black
+}
+
+#sec1n2 {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1n2 h2 {
+    text-align: center;
+    color: #815B5B;
+    border-bottom: 1px solid #594545;
+}
+
+#sec1n2 p{
+    margin-top: 5px;
+}
+
+.noodlecontainer {
+    margin: 5px;
+    display: flex;
+    width: 70%;
+}
+
+.noodleimage {
+    flex-basis: 40%;
+}
+
+.noodleimage img{
+    height: 350px;
+    width: auto;
+}
+
+.noodleinfo {
+    padding: 1rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 60%;
+    justify-content: space-around;
+}
+
+.noodleinfo ul {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.noodleinfo .unit {
+    color: #594545;
+    border-bottom: 2px solid #594545;
+}
+
+.noodleinfo .icon{
+    font-size: 3rem
+}
+
+ul {
+    list-style-type: none;
+}
+
+.noodleinfo .btn {
+    list-style-type: none;
+    text-decoration: none;
+    color: #815B5B;
+    justify-self: flex-end;
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1256px) {
+    .noodlecontainer {
+        flex-direction: column;
+    }
+
+    .noodleimage {
+        align-self: center;
+    }
+}
